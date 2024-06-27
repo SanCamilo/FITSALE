@@ -1,0 +1,499 @@
+/*Imports*/
+    /*Fonts*/
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    .boldfont{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 3em;
+        color: #fff;
+    
+    }
+    .lightfont{
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 3em;
+        color: #fff;
+    
+    }
+
+
+
+/*NavBar*/
+.rojo{
+    background-color: #E80000;
+}
+.blanco{
+    background-color: #fffffff1;
+}
+.negro{
+    background-color: #000;
+}
+.logonavbar{
+    width: 6em;
+    margin-bottom: 0px;
+    transform: scale(0.5em);
+    padding: 0px;
+}
+.textonavitem{
+  font-weight: bold;
+  font-size: 1em;
+  color: #fff;
+  padding: 1em;
+  text-decoration: none;
+}
+.textonavitemrojo{
+    font-weight: bold;
+    font-size: 1em;
+    color: #a90000;
+    padding: 1em;
+    text-decoration: none;
+  }
+
+/*FrontPage*/
+
+    /*Banner Principal*/
+    .bannerfondo{
+        background-color: #000;
+        
+    }
+    .imagentelefonoizquierda{
+        width: 40em;
+        height: 40em;
+        position: absolute;
+        top: 15%;
+        right: 70%;
+    }
+    .bannercirculo{
+        width:20em;
+        height:20em;
+        border-radius:50%;
+        border: solid 3px #fff;
+        overflow:hidden;
+       
+        
+        padding-top: 5em;
+    }
+    .bannerboldfont{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 3em;
+        color: #fff;
+
+        line-height: 0.8em;
+    }
+    .bannerlightfont{
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 3em;
+        color: #fff;
+
+        line-height: 0.8em;
+    }
+    .bannerenlace{
+        color: #fff;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+    }
+    .imagentelefonoderecha{
+        width: 40em;
+        height: 40em;
+        position: absolute;
+        top: 15%;
+        left: 60%;
+    }   
+    /*Categorias Fitsale*/
+    .fondocategorias{
+        background-color: #E80000;
+        
+    }
+    .categoriasboldfont{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 3em;
+        color: #fff;
+
+    }
+    .categoriaslightfont{
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 3em;
+        color: #fff;
+
+        line-height: 0.5em;
+    }
+    .categoriaslogofitsale{
+        width: 4.5em;
+        image-resolution: 300dpi;
+    }
+    
+    .categoriasimagencirculos{
+        width: 17em;
+        
+    }
+    .categoriasmargen{
+        padding: 4em;
+        padding-top: 0em;
+        padding-bottom: 0em;
+    }
+    /*Informacion Fitsale*/
+    .informacionfondorojo{
+        background-color: #E80000;
+    }
+    .informacionfondo{
+        background-color: #000;
+        clip-path: circle(55em at 50% 60em);
+        
+    }
+    .informacionorden{
+        padding: 6em;
+        padding-bottom: 0em;
+    }
+    .informacionicono{
+        width: 7em;
+    }
+    .informacionpaddingtexto{
+        padding: 3.2em;
+    }
+    .informacionboldfont{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 3em;
+        color: #fff;
+
+        line-height: 1em;
+    }
+    .informacionlightfont{
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 2.5em;
+        color: #fff;
+
+        line-height: 0.5em;
+        line-height: 1em;
+    }
+    .logofinpagina{
+        width: 13em;
+        margin: 4em;
+        margin-bottom: 0em;
+        margin-top: 0em;
+    }
+    /*Footer*/
+
+    /*RESPONSIVE*/
+    /*DISPOSITIVOS MEDIANOS*/
+    @media (max-width: 1000px) {
+        /*index*/
+            /*NavBar*/
+            .logonavbar{
+                width: 5.5em;
+                margin-bottom: 0px;
+                transform: scale(0.5em);
+                padding: 0px;
+            }
+            /*Banner Principal*/
+            .imagentelefonoizquierda{
+                width: 35em;
+                height: 35em;
+                position: absolute;
+                top: 15%;
+                right: 70%;
+            }
+            .imagentelefonoderecha{
+                width: 35em;
+                height: 35em;
+                position: absolute;
+                top: 15%;
+                left: 60%;
+            }   
+            /*Categorias Fitsale*/
+            .categoriasimagencirculos{
+                width: 15em;
+                
+            }
+            
+            /*Informacion Fitsale*/
+            .informacionboldfont{
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+                font-size: 2em;
+                color: #fff;
+        
+                line-height: 1em;
+            }
+            .informacionlightfont{
+                font-family: "Roboto", sans-serif;
+                font-weight: 300;
+                font-style: italic;
+                font-size: 2em;
+                color: #fff;
+        
+                line-height: 0.5em;
+                line-height: 1em;
+            }
+            .informacionicono{
+                width: 7em;
+            }
+            .informacionorden{
+                padding: 4em;
+                padding-bottom: 0em;
+            }
+            .informacionpaddingtexto{
+                padding: 2em;
+            }
+            /*Footer*/
+        /*servicios*/
+            /*Info*/
+            
+    }
+    /*DISPOSITIVOS PEQUEÑOS*/
+    @media (max-width: 480px) {
+        /*NavBar*/
+        .logonavbar{
+            width: 5em;
+            margin-bottom: 0px;
+            transform: scale(0.5em);
+            padding: 0px;
+        }
+        /*Banner Principal*/
+        .imagentelefonoizquierda{
+            width: 25em;
+            height: 25em;
+            position: absolute;
+            top: 15%;
+            right: 70%;
+        }
+        .imagentelefonoderecha{
+            width: 25em;
+            height: 25em;
+            position: absolute;
+            top: 15%;
+            left: 60%;
+        } 
+        /*Categorias Fitsale*/
+        /*Informacion Fitsale*/
+        .informacionicono{
+            width: 6em;
+        }
+        .informacionorden{
+            padding: 3em;
+            padding-bottom: 0em;
+        }
+        .informacionpaddingtexto{
+            padding: 1em;
+        }
+        /*Footer*/
+        .maps{
+            border-radius: 3em 3em 3em 3em;
+            margin: 0em;
+            padding: 0em;
+        }
+        .infomaps{
+            background: #000;
+            color: #fff;
+            border-radius: 3em 3em 3em 3em;
+
+            padding: 3em;
+
+            font-family: roboto;
+        }
+        
+    }
+
+/*Entrenamiento*/
+    /*Automatic carousel*/
+    .contenedortextoslider{
+        position: relative;
+    }
+    .textoslider{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        /* centrar vertical y horizontalmente */
+
+        font-family: roboto;
+        font-size: 6em;
+    }
+    /*Barra de busqueda de gym´s*/
+    .textobarra{
+        color: #fff;
+        padding: 0.5em;
+        margin: 0em;
+
+        font-family: roboto;
+        font-size: 1.5em;
+    }
+    .ordenbarra{
+        display: flex;
+        justify-content: center;
+    }
+    /*Mapas de gyms mas cercanos*/
+    .tarjetamaps{
+        padding: 5em;
+        padding-bottom: 0.5em;
+        background-color: #E80000;
+    }
+        /*Maps*/
+        .maps{
+            border-radius: 3em 0% 0% 3em;
+            margin: 0em;
+            padding: 0em;
+        }
+        .mapsplanes{
+            margin: 0em;
+            padding: 0em;
+        }
+        /*Info*/
+        .infomaps{
+            background: #000;
+            color: #fff;
+            border-radius: 0% 3em 3em 0%;
+
+            padding: 3em;
+
+            font-family: roboto;
+        }
+        .infomapspadding{
+            padding: 1em;
+            padding-left: 2.5em;
+            padding-right: 2.5em;
+            
+        }
+        .fondoplanes{
+            background-color: #000;
+        }
+        .tarjetaplanes{
+            border-radius: 2em;
+            background-color: #E80000;
+            margin: 4em;
+            margin-top: 2em;
+            align-items: center;
+        }
+        .imagenplanes{
+            background-color: #E80000;
+            width: 60px;
+            height: 15em;
+            border-radius: 2em;
+            align-items: center;
+        }
+        .contenidoplanes{
+            background-color: #fff;
+            border-radius:  0em 0em 2em 2em; 
+            padding: 1.5em;
+
+            align-items: start;
+        }
+        .tituloplanes{
+            font-size: 1.5em;
+            font-family: roboto;
+            font-weight: 500;
+
+            line-height: 1em;
+        }
+        .preciofitsale{
+            color: #a90000;
+            font-size: 1em;
+            font-family: roboto;
+            font-weight: light;
+
+            line-height: 1em;
+        }
+        .precionormal{
+            color: #000;
+            font-size: 1em;
+            font-family: roboto;
+
+            line-height: 1em;
+            font-weight: light;
+        }
+        .infomapsplanes{
+            background-color: #E80000;
+            color: #fff;
+
+            padding: 3em;
+
+            font-family: roboto;
+        }
+        .textopequeño{
+            font-family: roboto;
+            font-size: 1.5em;
+            font-weight: 300;
+            line-height: 1em;
+        }
+        .textogrande{
+            font-family: roboto;
+            font-size: 2.5em;
+            font-weight: bold;
+            line-height: 1em;
+        }
+/*Productos*/
+    /*Automatic carousel*/
+    /*Barra de busqueda de gym´s*/
+    /*Mapas de gyms mas cercanos*/
+        /*Maps*/
+        /*Info*/
+/*Salud*/
+    /*Automatic carousel*/
+    /*Barra de busqueda de gym´s*/
+    /*Mapas de gyms mas cercanos*/
+        /*Maps*/
+        /*Info*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.footer {
+    background: linear-gradient( #000 10%, #E80000 100%);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+    .textoslider{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        /* centrar vertical y horizontalmente */
+
+        font-family: roboto;
+        font-size: 4em;
+        align-items: center;
+    }
+}
+@media (max-width: 480px) {
+    .textoslider{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        /* centrar vertical y horizontalmente */
+
+        font-family: roboto;
+        font-size: 2.5em;
+    }
+}

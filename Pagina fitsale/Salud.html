@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios</title>
+  <link rel="stylesheet" type="text/css" href="CSS/Style.css" /> 
+  <link rel="shortcut icon" type="image/jpg" href="Imagenes/Logos fitsale/Logorojoynegro.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark blanco">
+  <div class="container align-items-center">
+    <!--LOGO-->
+    <a class="navbar-brand fs-4 logo" href="index.html"><img src="Imagenes/Logos fitsale/Logorojoynegro.png" alt="" class="logonavbar"></a>
+    <!--TOGGLE BTN-->
+    <button 
+      class="navbar-toggler toggler " 
+      type="button" 
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNavbar" 
+      aria-controls="offcanvasNavbar"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!--SideBar-->
+    <div class="sidebar offcanvas offcanvas-start bg-danger" 
+      tabindex="-1" id="offcanvasNavbar" 
+      aria-labelledby="offcanvasNavbarLabel"
+      >
+      <!--sidebar header-->
+      <div class="offcanvas-header border-bottom align-items-center">
+        <a class="navbar-brand fs-4 logo " href="#"><img src="Imagenes/Logos fitsale/Logorojoynegro.png" alt="" class="logonavbar"></a>
+        <button 
+        type="button" 
+        class="btn-close btn-close-white shadow-none" 
+        data-bs-dismiss="offcanvas" 
+        aria-label="Close"
+        >
+      </button>
+      </div>
+      <!--sidebar body-->
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-center fs-5 flex-grow-1 pe-3">
+          <li class="nav-item mx-2 ">
+            <a class=" textonavitemrojo " aria-current="page" href="index.html">INICIO</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class=" textonavitemrojo" href="#about">SERVICIOS</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class=" textonavitemrojo" href="#services">SOCIOS</a>
+          </li>
+        </ul>
+      </div>
+      <!--Language-->
+      <div></div>
+    </div>
+  </div>
+</nav>
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active contenedortextoslider text-center">
+        <img src="Imagenes/elementospaginaweb/Foto Banner Salud y bienestar.png" class="d-block w-100" alt="...">
+        <h2 class="textoslider">Salud y Bienestar</h2>
+      </div>
+      <div class="carousel-item contenedortextoslider">
+        <img src="Imagenes/elementospaginaweb/Foto Banner Entrenamiento.png" class="d-block w-100" alt="...">
+        <h2 class="textoslider">Entrenamiento</h2>
+      </div>
+      <div class="carousel-item contenedortextoslider text-center">
+        <img src="Imagenes/elementospaginaweb/Foto Banner Productos y alimentación.png" class="d-block w-100" alt="...">
+        <h2 class="textoslider">Productos y Alimentacion</h2>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--Barra de busqueda de gym´s-->
+  <nav class="navbar navbar-expand-lg bg-black">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center ordenbarra" id="navbarSupportedContent">
+        <p class=" textobarra" href="#">Busca tu gym de preferencia</p>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-danger" type="submit">Usar mi ubicacion</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--Mapas de gyms mas cercanos-->
+    <div class="tarjetamaps">
+      <div class="row">
+        <!--Maps-->
+        <div class="col-md-6 maps">
+          <div class="">assaas</div>
+        </div>
+        <!--Info-->
+        <div class="col-md-6 infomaps ">
+          <div class="infomapspadding">
+            <p class="textopequeño">Gym a 2,5Km</p>
+            <p class="textogrande">Fitness24Seven</p>
+
+            <i class="bi bi-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tarjetamaps">
+      <div class="row">
+        <!--Maps-->
+        <div class="col-md-6 maps">
+          <div>asaas</div>
+        </div>
+        <!--Info-->
+        <div class="col-md-6 infomaps ">
+          <div class="infomapspadding">
+            <p class="textopequeño">Gym a 2,5Km</p>
+            <p class="textogrande">Fitness24Seven</p>
+
+            <i class="bi bi-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+<footer class="footer text-light pt-5 pb-4 ">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-6">
+        <h5>Contacto</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="mailto:info@fitsale.com" class="text-light">info@fitsale.com</a>
+          </li>
+          <li>Calle 6 5 # 13-50, Bogotá D.C</li>
+          <li>Cundinamarca, Colombia</li>
+        </ul>
+      </div>
+      <div class="col-md-4 col-6">
+        <h5>Enlaces Rápidos</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-light">Inicio</a></li>
+          <li><a href="#info" class="text-light">Acerca de</a></li>
+          <li><a href="#" class="text-light">Servicios</a></li>
+          <li><a href="#contactanos" class="text-light">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 col-12 ">
+        <h5>Redes Sociales</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light">Facebook</a></li>
+          <li><a href="#" class="text-light">Twitter</a></li>
+          <li><a href="#" class="text-light">Instagram</a></li>
+          <li><a href="#contactanos" class="text-light">whatsapp</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center mt-3">© 2024 Clez. Todos los derechos reservados.</div>
+    </div>
+  </div>
+</footer>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
